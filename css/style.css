@@ -1,0 +1,284 @@
+.navbar {
+  background-color: #e6e6e6;
+}
+
+.navbar ul li ::before {
+  content: "•";
+}
+
+.visibility {
+  visibility: visible;
+}
+
+.tog {
+  visibility: hidden;
+  width: 100%;
+}
+
+.sec_banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list_item li a {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list_item li span {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 16px;
+  font-weight: 250;
+}
+
+.logo_sec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.logo_sec span {
+  position: relative;
+  top: 1px;
+  left: 3px;
+}
+
+.logo_sec p {
+  font-size: 18px;
+  margin-top: 1.3rem;
+  font-weight: 400;
+}
+.logo_sec img {
+  height: auto;
+  max-width: 220px;
+  width: 100%;
+}
+
+.banner {
+  /* margin-bottom: 90px; */
+  /* clear: both; */
+  margin-top: 3rem;
+}
+
+.header_section ul li {
+  display: inline;
+  list-style: none;
+  float: right;
+}
+
+.header_section ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400px;
+  margin-top: 1rem;
+}
+
+.header_section ul li a:hover {
+  background-color: #0033a0;
+  color: white;
+  font-weight: 500px;
+}
+
+.modern_text {
+  font-size: 36px;
+  line-height: 2;
+  color: #0033a0;
+}
+.btn_1 {
+  float: left;
+  height: auto;
+  width: 40px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.second_banner {
+  background-color: #0033a0;
+  padding-bottom: 30px;
+}
+
+.banner_cont h4 {
+  line-height: 1.9;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.offcanvas-body {
+  background-color: #0033a0;
+}
+
+.banner_cont p {
+  line-height: 1.3;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.banner_cont button {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  width: auto;
+  background-color: #00b140;
+  border: none;
+}
+
+.cog_p {
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card_ {
+  position: relative;
+}
+
+.card_body {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  font-weight: bolder;
+  width: 100%;
+  height: 50%;
+}
+
+.fixed_img {
+  background-image: url("/img/services-india-hp-parallax-banner.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.img_text {
+  position: relative;
+}
+
+.vcard_1 {
+  align-items: center;
+  padding: 30px;
+}
+
+h6 {
+  margin-top: 10px;
+}
+
+.engineer {
+  margin-top: 3rem;
+}
+
+.eng_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form_head {
+  text-align: center;
+  margin-top: 3rem;
+  color: #0033a0;
+  font-weight: 800;
+}
+
+.form_p {
+  text-align: center;
+}
+
+.row_1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row_1 input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.msg_box input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+.submit_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit_btn input {
+  height: 40px;
+  width: auto;
+  background-color: #00b140;
+  color: whitesmoke;
+  border: none;
+  font-weight: 700;
+}
+
+.last_p {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.last_p span {
+  color: #00b140;
+  font-weight: 700;
+}
+
+.social ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.social ul li a {
+  font-weight: 700;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer ul li {
+  list-style: none;
+  font-weight: normal;
+  color: #000;
+}
+
+footer ul li:first-child {
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0033a0;
+  margin-bottom: 10px;
+}
